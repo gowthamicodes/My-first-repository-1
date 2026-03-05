@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+       <style>
+form
+{
+    background-color: lightgreen ;
+  color:blue ;
+  font-style: initial ;    
+}
+       </style>
+         <style>
+h1
+{background-color: whitesmoke ;}
+
+       </style>
+       </head>
+<body  >
+<Form class="form" action="/Submit" method="get">
+
+ <h1>Form</h1>
+    
+<div>
+   <label>Enter your name: </label>
+   <input type="text" name="username" required >
+</div>
+<br>
+<div>
+    <label>Email:</label>
+    <input type="email" name="Email" required >
+    </div>
+    <br>
+<div>
+    <label>Password:</label>
+    <input type="password" name="password" required >
+</div>
+<br>
+<div>
+    <label>Contact number</label>
+    <input type="tel" name="contact number" min="1" max="10" required>
+</div>
+<br>
+<div>
+    <label>Date:</label>
+   <input type="date" name="date" required>
+</div>
+<br>
+<div>
+<label>Gender:</label>
+   <input type="radio" name="Gender" value="male" required >Male
+   <input type="radio" name="Gender" value="female" >Female
+   <input type="radio" name="Gender" value="other" >Other
+   </div>
+   <br>
+<div>
+    <label>Department:</label>
+    <select name="Department" required >
+    <option value="">Select Department</option>
+    <option value="IT">IT</option>
+    <option value="CEE">CEE</option>
+    <option value="ECE">ECE</option>
+    <option value="MECH">MECH</option>
+</select>
+</div>  
+<br> 
+<div>
+    <label>Subject:</label>
+    <input type="checkbox" name="Subject" value="Tamil" required >Tamil
+    <input type="checkbox" name="Subject" value="English"  required >English
+    <input type="checkbox" name="Subject" value="Maths" required  >Maths
+    <input type="checkbox" name="Subject" value="Science"  required >Science
+</div>
+<br>
+<div>
+    <label>Feedback:</label>
+    <textarea name="feedback" required></textarea>
+</div>
+<br>
+<div>
+    <h1 style ="color:blue;">Tables</h1>
+<table border="1">
+<tr>
+   <th>student Name</th>
+   <th>Class</th>
+   <th>Marks</th>
+</tr>
+<td>Gowthami</td>
+<td>IT</td>
+<td>80</td>
+</table>
+</div>
+<br>
+<button type="submit" >Submit</button>
+
+
+
+</Form>
+
+</body>
+
+</html>
+
+
+
